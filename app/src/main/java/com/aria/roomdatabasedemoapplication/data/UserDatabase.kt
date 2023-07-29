@@ -1,9 +1,10 @@
-package com.aria.roomdatabasedemoapplication.database
+package com.aria.roomdatabasedemoapplication.data
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.aria.roomdatabasedemoapplication.model.User
 
 @Database(entities = [User::class], version = 1, exportSchema = false)
 abstract class UserDatabase : RoomDatabase() {

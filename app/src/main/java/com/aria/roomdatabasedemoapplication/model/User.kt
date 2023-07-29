@@ -1,4 +1,4 @@
-package com.aria.roomdatabasedemoapplication.database
+package com.aria.roomdatabasedemoapplication.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

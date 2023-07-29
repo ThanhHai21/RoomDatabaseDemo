@@ -1,4 +1,4 @@
-package com.aria.roomdatabasedemoapplication
+package com.aria.roomdatabasedemoapplication.ui
 
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
@@ -9,8 +9,12 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.aria.roomdatabasedemoapplication.database.User
-import com.aria.roomdatabasedemoapplication.database.UserDatabase
+import com.aria.roomdatabasedemoapplication.viewmodel.MainViewModel
+import com.aria.roomdatabasedemoapplication.viewmodel.MainViewModelFactory
+import com.aria.roomdatabasedemoapplication.R
+import com.aria.roomdatabasedemoapplication.viewmodel.UserAdapter
+import com.aria.roomdatabasedemoapplication.model.User
+import com.aria.roomdatabasedemoapplication.data.UserDatabase
 
 class MainActivity : AppCompatActivity() {
     private lateinit var username: EditText

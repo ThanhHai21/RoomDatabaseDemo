@@ -1,9 +1,9 @@
-package com.aria.roomdatabasedemoapplication;
+package com.aria.roomdatabasedemoapplication.viewmodel;
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.aria.roomdatabasedemoapplication.database.UserDao
-import com.aria.roomdatabasedemoapplication.database.User
+import com.aria.roomdatabasedemoapplication.data.UserDao
+import com.aria.roomdatabasedemoapplication.model.User
 import kotlinx.coroutines.launch
 
 class MainViewModel(private var dao: UserDao) : ViewModel(){

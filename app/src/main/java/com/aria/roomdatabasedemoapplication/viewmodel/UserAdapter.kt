@@ -1,11 +1,12 @@
-package com.aria.roomdatabasedemoapplication
+package com.aria.roomdatabasedemoapplication.viewmodel
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.aria.roomdatabasedemoapplication.database.User
+import com.aria.roomdatabasedemoapplication.R
+import com.aria.roomdatabasedemoapplication.model.User
 
 class UserAdapter(
     private val setOnClickedItem: (User) -> Unit
