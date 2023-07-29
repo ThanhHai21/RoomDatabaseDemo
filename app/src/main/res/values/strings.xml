@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RoomDatabaseDemoApplication</string>
+    <string name="name">Username…</string>
+    <string name="email">Email…</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+</resources>
